@@ -8,9 +8,7 @@ console.log(5 + 8);
 function myfunction() {
     document.getElementById("text1").innerHTML = "Hello Daniel";
     document.getElementById("test2").innerHTML = "how are you";
-    console.log("M")
-    console.log("M")
-    console.log("M")
+    alert("M")
     console.log("M")
 }
 
