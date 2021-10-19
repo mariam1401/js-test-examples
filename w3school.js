@@ -186,7 +186,7 @@ ourFunction();
                 }
 
 
-                const numbersg = [45, 4, 9, 16, 25];
+                const numbersg = [45, 4, 9, 916, 25];
                 const numberssg = numbersg.map(myFunctionl);
 
                 document.getElementById("demom").innerHTML = numberssg;
@@ -194,7 +194,7 @@ ourFunction();
                 function myFunctionl(value, index, array) {
                     return value * 2;
                 }
-                    const numberskk = [45, 4, 9, 16, 25];
+                    const numberskk = [45, 8, 9, 16, 25];
                     const over18 = numberskk.filter(myFunctionkk);
 
 
@@ -204,17 +204,16 @@ ourFunction();
                     document.getElementById("demoll").innerHTML = over18;
 
                     function myFunctionkk(value, index, array) {
-                        return value > 18;
+                        return value > 19;
                     }
 
 
                     const personnm = {
                         firstname: "John",
                         lastname: "Doe",
-                        age: 50,
+                        age: 58,
                         eyecolor: "blue"
                     };
 
                     delete personnm.age;
-
                     document.getElementById("demokl").innerHTML = personnm.firstname + " is " + personnm.age + " years old.";
