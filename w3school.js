@@ -9,6 +9,9 @@ console.log(5 + 8);
 function myfunction() {
     document.getElementById("text1").innerHTML = "hi Daniel";
     document.getElementById("test2").innerHTML = "how are you";
+    alert("M")
+    console.log("A")
+    console.log("M")
 }
 
 var pi = 3.14;
