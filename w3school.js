@@ -6,7 +6,7 @@ console.log(5 + 8);
 
 
 function myfunction() {
-    document.getElementById("text1").innerHTML = "hi Daniel";
+    document.getElementById("text1").innerHTML = "Hello Daniel";
     document.getElementById("test2").innerHTML = "how are you";
 }
 
@@ -30,7 +30,7 @@ document.getElementById('hamar3').innerHTML = x;
 
 const cars = ["BMW", "Toyota", "Saab"];
 cars[0] = "Volvo";
-cars.push("Audi");
+cars.push("Nisan");
 document.getElementById('hamar4').innerHTML = cars;
 
 let n =  10;
@@ -220,7 +220,7 @@ ourFunction();
                     document.getElementById("demokl").innerHTML = personnm.firstname + " is " + personnm.age + " years old.";
 
 const inventory = [
-    {name: 'apples', quantity: 2},
+    {name: 'apples', quantity: 5},
     {name: 'bananas', quantity: 0},
     {name: 'cherries', quantity: 5}
 ];
@@ -230,3 +230,9 @@ function isCherries(fruit) {
 }
 
 console.log(inventory.find(isCherries));
+
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
