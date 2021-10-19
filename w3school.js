@@ -230,9 +230,7 @@ function isCherries(fruit) {
 }
 
 console.log(inventory.find(isCherries));
+const array1 = [1, 4, 9, 16];
+const map1 = array1.map(x => x * 2);
 
-const array1 = [5, 12, 8, 130, 44];
-
-const found = array1.find(element => element > 10);
-
-console.log(found);
+console.log(map1);
