@@ -1,5 +1,4 @@
 
-debugger;
 document.getElementById("demo").innerHTML = 5 + 9;
 document.write(5 + 6);
 window.alert(5 + 8);
@@ -7,10 +6,9 @@ console.log(5 + 8);
 
 
 function myfunction() {
-    document.getElementById("text1").innerHTML = "hi Daniel";
+    document.getElementById("text1").innerHTML = "Hello Daniel";
     document.getElementById("test2").innerHTML = "how are you";
     alert("M")
-    console.log("A")
     console.log("M")
 }
 
@@ -34,10 +32,10 @@ document.getElementById('hamar3').innerHTML = x;
 
 const cars = ["BMW", "Toyota", "Saab"];
 cars[0] = "Volvo";
-cars.push("Audi");
+cars.push("Nisan");
 document.getElementById('hamar4').innerHTML = cars;
 
-let n = 5;
+let n =  10;
 let m = 2;
 let l = n + m;
 document.getElementById('hamar5').innerHTML = l;
@@ -53,8 +51,10 @@ document.getElementById('hamar7').innerHTML = name3;
 
 let d = 5;
 let o = "Joe";
+var x = 20;
 let k = 7;
 let q = d + o +k;
+var x = 20;
 document.getElementById('hamar8').innerHTML = q;
 
 let v = 17;
@@ -220,3 +220,19 @@ ourFunction();
 
                     delete personnm.age;
                     document.getElementById("demokl").innerHTML = personnm.firstname + " is " + personnm.age + " years old.";
+
+const inventory = [
+    {name: 'apples', quantity: 5},
+    {name: 'bananas', quantity: 0},
+    {name: 'cherries', quantity: 5}
+];
+
+function isCherries(fruit) {
+    return fruit.name === 'cherries';
+}
+
+console.log(inventory.find(isCherries));
+const array1 = [1, 4, 9, 16];
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
