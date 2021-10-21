@@ -54,6 +54,10 @@ function calculateDogAge (age) {
 calculateDogAge(5);
 calculateDogAge(30);
 calculateDogAge(1);
+/*Write a function named tellFortune that:
+takes 4 arguments: number of children, partner's name, geographic location, job title.
+outputs your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+Call that function 3 times with 3 different values for the arguments. */
 
 function tellFortune(jobTitle, geoLocation, partner, numKids) {
     var future = "You will be a " + jobTitle + " in " + geoLocation + " and married to " +
@@ -65,6 +69,17 @@ tellFortune('Manager', 'Armenia', 'David', 3);
 tellFortune('Developer', 'America', 'Joe', 1);
 tellFortune('Singer', 'Russia', 'Nike', 0);
 
+//Write a JavaScript function that checks whether a passed string is palindrome or not?
 
+function checkString (palindrome) {
+    for (let i = 0; i < palindrome.length; i++) {
+        const firstIndex = i;
+        const secondIndex = palindrome.length - i-1;
+        if (palindrome[firstIndex] !== palindrome[secondIndex]) {
+                return false;
+        }
+    }
+    return true;
+}
 
-
+checkString("madam")
