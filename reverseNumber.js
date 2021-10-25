@@ -58,7 +58,7 @@ function toUpperCase (str){
     }
 return newArray.join(' ');
 }
-console.log(toUpperCase("hello Mariam, how are you"));
+console.log(toUpperCase("hell Mariam, how are you"));
 
 //6.Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
 function longestWord (str){
