@@ -72,3 +72,17 @@ function longestWord (str){
 return longestword;
 }
 console.log(longestWord("i don't have time to communicate with you"));
+
+
+//Write a JavaScript function to find the first not repeated character
+debugger;
+function firstNotRepeatingCharacter(str) {
+    for (let i = 0; i < str.length; i++) {
+        if(str.indexOf(str.charAt(i)) === str.lastIndexOf(str.charAt(i))) {
+            return str.charAt(i)
+        }
+    }
+        return false
+}
+console.log(firstNotRepeatingCharacter("hello"));
+
