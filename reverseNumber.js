@@ -29,14 +29,46 @@
 // const  reversenumber= (num)=> num.toString().split("").reverse().join("");
 //
 // console.log(reversenumber(675));
-const findGreater = (arr, num) => {
-    let  array = [];
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i] < num){
-            continue;
-        }
-        array.push(arr[i]);
+// const findGreater = (arr, num) => {
+//     let  array = [];
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] < num){
+//             continue;
+//         }
+//         array.push(arr[i]);
+//     }
+//     return array;
+// }
+// console.log(findGreater([4,5,6,7,8], 7));
+
+//4.Write a JavaScript function that returns a passed string with letters in alphabetical order.
+
+const alphabeticalOrder = (str) => str.split('').sort().join('');
+
+console.log(alphabeticalOrder("hello"));
+
+/*5.Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the
+ string in upper case.*/
+
+function toUpperCase (str){
+    let string = str.split(' ');
+    let newArray = [];
+    for (let i =0;i<string.length;i++){
+        newArray.push(string[i].charAt(0).toUpperCase()+string[i].slice(1));
     }
-    return array;
+return newArray.join(' ');
 }
-console.log(findGreater([4,5,6,7,8], 7));
+console.log(toUpperCase("hello Mariam, how are you"));
+
+//6.Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
+function longestWord (str){
+    let string = str.split(' ');
+    let longestword = "";
+    for (let i = 0;i < string.length;i++){
+        if(string[i].length > longestword.length){
+            longestword = string[i];
+        }
+    }
+return longestword;
+}
+console.log(longestWord("i don't have time to communicate with you"));
