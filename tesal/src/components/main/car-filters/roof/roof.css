@@ -1,0 +1,43 @@
+.roof{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f5f5f5;
+    width: 84%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5c5d61;
+}
+.roof-options {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f5f5f5;
+    justify-content: space-between;
+}
+.roof-options>div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 160px;
+    height: 18px;
+}
+.roof-options>div>input{
+    width: 24px;
+    height: 24px;
+}
+.body-colored-roof>div{
+    display: flex;
+    width: 123px;
+
+    text-align: center;
+}
+.glass-roof>div{
+    display: flex;
+    width: 123px;
+
+}
+.sunroof>div{
+    display: flex;
+    width: 123px;
+
+}

@@ -1,0 +1,39 @@
+.autopilot{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f5f5f5;
+    width: 84%;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5c5d61;
+}
+.autopilot-options{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f5f5f5;
+    justify-content: space-between;
+
+}
+.autopilot-options>div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 160px;
+    height: 38px;
+}
+.autopilot-options>div>input{
+    width: 24px;
+    height: 24px;
+}
+.Autopilot>div{
+    display: flex;
+    width: 119px;
+
+}
+.full-self-driving>div{
+    display: flex;
+    width: 119px;
+
+}

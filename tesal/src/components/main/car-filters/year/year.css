@@ -1,0 +1,29 @@
+.year_models{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f5f5f5;
+    width: 84%;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5c5d61;
+}
+.year-options{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #f5f5f5;
+    justify-content: space-between;
+}
+.year-options>div>input{
+    width: 24px;
+    height: 24px;
+}
+.year-options>div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 72px;
+    height: 18px;
+
+}

@@ -1,0 +1,112 @@
+.slideShow-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 426px;
+    position: relative;
+    background-color: white;
+    margin: 0;
+
+
+}
+.image-slide > img{
+    width: 100%;
+}
+.slide-arrow.left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    position: absolute;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+    background-color:#393c41;
+    margin-left: 9px;
+    padding: 4px;
+    visibility: hidden;
+
+}
+.slideShow-container:hover .slide-arrow.left{
+    visibility: visible;
+}
+.slide-arrow.right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    position: absolute;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 3px;
+    border-color: white;
+    background-color: #393c41;
+    margin-left: 380px;
+    padding: 4px;
+    visibility: hidden;
+
+}
+.slideShow-container:hover .slide-arrow.right{
+    visibility: visible;
+}
+.slide-arrow.left>img{
+
+
+
+}
+/*.fade {*/
+/*    -webkit-animation-name: fade;*/
+/*    -webkit-animation-duration: 1.5s;*/
+/*    animation-name: fade;*/
+/*    animation-duration: 1.5s;*/
+/*}*/
+
+/*@-webkit-keyframes fade {*/
+/*    from {opacity: .4}*/
+/*    to {opacity: 1}*/
+/*}*/
+
+/*@keyframes fade {*/
+/*    from {opacity: .4}*/
+/*    to {opacity: 1}*/
+/*}*/
+
+
+/*.slide-arrow.right>button{*/
+/*    background-color: transparent;*/
+/*    border-color: transparent;*/
+/*    color: transparent;*/
+
+/*}*/
+/*.slide-arrow.left>button{*/
+/*    background-color: transparent;*/
+/*    border-color: transparent;*/
+/*    color: white;*/
+/*}*/
+/*.slide-arrow.right>button:hover{*/
+/*    background-color: rgba(0,0,0,0.8);*/
+
+
+
+/*}*/
+/*.slide-arrow.left>button:hover{*/
+/*    background-color: rgba(0,0,0,0.8);*/
+/*    border-color: transparent;*/
+/*    color: white;*/
+
+
+/*}*/
+.arrows{
+    background-color: #5d6071;
+}
