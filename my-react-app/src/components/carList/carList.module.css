@@ -1,0 +1,34 @@
+.container{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-evenly;
+    flex-flow: column wrap;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 10px 10px 5px #aaaaaa;
+    margin: 30px;
+
+}
+.carForm{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+}
+.carForm>div{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.container>img{
+    width: 100%;
+}
+.header{
+    font-size: 20px;
+    color: #393c41;
+    font-weight: 500;
+}

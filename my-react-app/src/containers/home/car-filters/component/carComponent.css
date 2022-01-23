@@ -1,0 +1,10 @@
+.carComponent{
+    height: 25%;
+    width: 100%;
+    font-weight: 500;
+    font-family: "Helvetica Neue";
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

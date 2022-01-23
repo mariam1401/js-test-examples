@@ -1,0 +1,32 @@
+.error1{
+    background-color:white;
+    width: 30%;
+    height: 620px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+.error1>div{
+    background-color: #CCD1C3;
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    height: 30%;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.errorMessage1{
+    color: black;
+    font-size: 15px;
+}
+.error1>div>img{
+    width: 10%;
+}
+.error1>div>div{
+    display: flex;
+    flex-flow: column wrap;
+}
