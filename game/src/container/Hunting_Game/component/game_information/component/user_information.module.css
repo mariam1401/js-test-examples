@@ -1,0 +1,33 @@
+.container{
+    width: 90%;
+    padding: 7px 24px 8px 24px;
+    background: #022C50;
+    border: 1px solid #04437B;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: WeblySleek UI, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #04437B;
+    margin: 0 auto 7px;
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+}
+.coeffNan{
+    display: none;
+}
+.sum{
+    font-size: 16px;
+}
+.factor{
+    font-size: 15px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -26px;
+}

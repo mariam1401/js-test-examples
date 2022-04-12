@@ -1,0 +1,14 @@
+.menu{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu>img{
+    cursor: pointer;
+}
+.settings{
+    cursor: pointer;
+}
+.proven{
+    display: none;
+}

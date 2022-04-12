@@ -1,0 +1,331 @@
+.main_container{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 81;
+}
+.backgroundImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.leaf{
+    width: 300px;
+    position: absolute;
+    margin:335px 0 0 190px
+}
+.finish{
+    display: none;
+}
+.number{
+
+    font-family: WeblySleek UI, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 128px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.container1{
+    width: 350px;
+    height: 350px;
+    /*background-color: #21A6FA;*/
+    border-radius: 100%;
+    border:10px solid  #035C0C;
+    position: relative;
+    /*border: 10px solid  #1c8c18;*/
+/*// !*border-bottom: 10px solid red;*!*/
+animation: loading 5s linear;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container2{
+    width: 345px;
+    height: 345px;
+    border-radius: 100%;
+    border: 10px solid   #26a31d;
+    animation: loading2 5s linear;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container3 {
+    width: 335px;
+    height: 335px;
+    animation: loading3 5s linear;
+    animation-fill-mode: forwards;
+    position: absolute;
+    border-radius: 100%;
+    border:10px solid #4FF532;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes  loading {
+    0% {transform: rotate(0deg);
+        border-right: 10px solid transparent;
+        border-top: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+
+
+    }
+    10%{transform: rotate(36deg);
+        border-bottom: 10px solid #1c8c18;
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+        position: relative;
+
+    }
+    20%{transform: rotate(72deg);
+        border-bottom: 10px solid #1c8c18;
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+    }
+    30%{transform: rotate(108deg);
+        border-bottom: 10px solid #1c8c18;
+        border-top: transparent;
+        border-right: transparent;
+        border-left: transparent;
+    }
+    40% {transform: rotate(144deg);
+        border-left:10px solid #1c8c18;
+        border-bottom: 10px solid #1c8c18;
+        border-top: transparent;
+        border-right: transparent;
+    }
+    50%{transform: rotate(180deg);
+        border-left:10px solid #1c8c18;
+        border-bottom: 10px solid #1c8c18;
+        border-top: transparent;
+        border-right: transparent;
+    }
+    60%{transform: rotate(216deg);
+        border-left:10px solid #1c8c18;
+        border-bottom: 10px solid #1c8c18;
+        border-top: transparent;
+        border-right: transparent;
+    }
+    70%{transform: rotate(252deg);
+        border-left:10px solid #1c8c18;
+        border-top: 10px solid #1c8c18;
+        border-bottom: 10px solid #1c8c18;
+        border-right: 10px solid transparent;
+    }
+    80%{transform: rotate(288deg);
+        border-left:10px solid #1c8c18;
+        border-top: 10px solid #1c8c18;
+        border-bottom: 10px solid #1c8c18;
+        border-right: 10px solid transparent;
+
+    }
+    90%{transform: rotate(324deg);
+        position: relative;
+        border:10px solid transparent;
+        background-image: linear-gradient(#012748,#012748),
+        linear-gradient(to left, #035C0C, #4FF532);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    100% { transform: rotate(360deg);
+        position: relative;
+        border:10px solid transparent;
+        background-image: linear-gradient(#012748,#012748),
+        linear-gradient(to left, #035C0C, #4FF532);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 1px 0px 1px 1px #035C0C ;
+
+    }
+
+}
+@keyframes loading2 {
+    0% {transform: rotate(0deg);
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+
+    }
+    10%{transform: rotate(36deg);
+        border-top:10px solid  #05600d;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+    }
+    20%{transform: rotate(72deg);
+        border-top:10px solid  #05600d;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+    }
+    30%{transform: rotate(108deg);
+        border-top:10px solid  #05600d;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+    }
+    40% {transform: rotate(144deg);
+        border-left:10px solid  #05600d;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid  #05600d;
+    }
+    50%{transform: rotate(180deg);
+        border-left:10px solid  #05600d;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid  #05600d;
+    }
+    60%{transform: rotate(216deg);
+        border-left:10px solid  #05600d;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid  #05600d;
+    }
+    70%{transform: rotate(252deg);
+        border-left:10px solid  #05600d;
+        border-bottom:10px solid  #05600d;
+        border-top: 10px solid   #05600d;
+        border-right: 10px solid transparent;
+    }
+    80%{transform: rotate(288deg);
+        border-top: 10px solid   #05600d;
+        border-left:10px solid  #05600d;
+        border-bottom:10px solid  #05600d;
+        border-right: 10px solid  #05600d;
+    }
+    90%{transform: rotate(324deg);
+        border:10px solid transparent;
+        background-image: linear-gradient(#012748,#012748),
+        linear-gradient(to top, #035C0C, #4FF532);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        width: 348px;
+        height: 348px;
+        position: absolute;
+    }
+
+
+    100% { transform: rotate(360deg);
+        border:10px solid transparent;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+        linear-gradient( to top, #035C0C, #4FF532);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        width: 348px;
+        height: 348px;
+        position: absolute;
+        margin-right: 30px;
+        padding-top: 5px;
+    }
+}
+@keyframes loading3 {
+    0% {transform: rotate(0deg);
+        border-left:10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top:10px solid transparent;
+    }
+    10%{transform: rotate(36deg);
+        border-left:10px solid #7CDE00;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid transparent;
+    }
+    20%{transform: rotate(72deg);
+        border-left:10px solid #7CDE00;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid transparent;
+    }
+    30%{transform: rotate(108deg);
+        border-left:10px solid #7CDE00;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid transparent;
+    }
+    40% {transform: rotate(144deg);
+        border-top:10px solid #7CDE00;
+        border-left:10px solid #7CDE00;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    50%{transform: rotate(180deg);
+        border-top:10px solid #7CDE00;
+        border-left:10px solid #7CDE00;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    60%{transform: rotate(216deg);
+        border-top:10px solid #7CDE00;
+        border-left:10px solid #7CDE00;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    70%{transform: rotate(252deg);
+        border-top:10px solid #7CDE00;
+        border-bottom: 10px solid #7CDE00;
+        border-left:10px solid #7CDE00;
+        border-right: 10px solid transparent;
+    }
+    80%{transform: rotate(288deg);
+        border-top:10px solid #7CDE00;
+        border-bottom: 10px solid #7CDE00;
+        border-right: 10px solid #7CDE00;
+        border-left:10px solid #7CDE00;
+    }
+    90%{transform: rotate(324deg);
+    /*//border-left:10px solid #1c8c18;*/
+    /*//border-top: 10px solid #1c8c18;*/
+    /*//border-right: 10px solid #1c8c18;*/
+    /*//border-bottom: 10px solid #1c8c18;*/
+    /*//position: relative;*/
+        border:10px solid transparent;
+        background-image: linear-gradient(#012748,#012748),
+        linear-gradient(to top, #035C0C, #4FF532);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        width: 347px;
+        height: 347px;
+        position: absolute;
+
+    }
+    100% { transform: rotate(360deg);
+        border:10px solid transparent;
+        position: absolute;
+        background-image: linear-gradient(#012748,#012748),
+        linear-gradient(45deg, #035C0C, #4FF532);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        width: 347px;
+        height: 347px;
+        margin-left: 18px;
+        margin-bottom: 8px;
+        box-shadow: 2px 5px 2px 2px #035C0C ;
+    }
+}

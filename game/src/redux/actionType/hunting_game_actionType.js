@@ -1,0 +1,3 @@
+const HUNTING_GAME='HUNTING_GAME'
+
+export {HUNTING_GAME}
