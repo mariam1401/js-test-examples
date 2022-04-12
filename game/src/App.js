@@ -16,7 +16,6 @@ function App() {
             client.subscribe('/crash/state', message => {
                 console.log(message.body);
             })
-            console.log('jikjk')
         },
         onStompError: receipt => {
             console.log(receipt.body);
